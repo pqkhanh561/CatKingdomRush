@@ -1,0 +1,1950 @@
+{
+    "freeze": {
+        "creep": {
+            "prefix": "freeze_creep_00%02d.png",
+            "start": 1,
+            "end": 7,
+            "delay": 0.05
+        },
+        "creepFlying": {
+            "prefix": "freeze_creepFlying_00%02d.png",
+            "start": 1,
+            "end": 7,
+            "delay": 0.05
+        },
+        "explosion": {
+            "prefix": "small_freeze_explosion_00%02d.png",
+            "start": 1,
+            "end": 20,
+            "delay": 0.04
+        }
+    },
+    "refreeze": {
+        "creep": {
+            "prefix": "freeze_creep_00%02d.png",
+            "start": 8,
+            "end": 23,
+            "delay": 0.05
+        },
+        "creepFlying": {
+            "prefix": "freeze_creepFlying_00%02d.png",
+            "start": 10,
+            "end": 21,
+            "delay": 0.05
+        }
+    },
+    "fireBall": {
+        "explosion": {
+            "prefix": "fireball_explosion_00%02d.png",
+            "start": 1,
+            "end": 15,
+            "delay": 0.06
+        },
+        "fire": {
+            "prefix": "fireball_proyectile_00%02d.png",
+            "start": 1,
+            "end": 5,
+            "delay": 0.04
+        },
+        "smoke": {
+            "prefix": "fireball_particle_00%02d.png",
+            "start": 1,
+            "end": 4,
+            "delay": 0.04
+        }
+    },
+    "sell": {
+        "smoke": {
+            "prefix": "effect_sellSmoke_00%02d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        }
+    },
+    "build": {
+        "smoke": {
+            "prefix": "effect_buildSmoke_00%02d.png",
+            "start": 1,
+            "end": 10,
+            "delay": 0.04
+        }
+    },
+    "shine": {
+        "prefix": "mapFlag_star_00%02d.png",
+        "start": 1,
+        "end": 18,
+        "delay": 0.04
+    },
+    "succeed": {
+        "prefix": "mapFlag_0%03d.png",
+        "start": 23,
+        "end": 95,
+        "delay": 0.04
+    },
+    "level1_mage": {
+        "shine": {
+            "prefix": "mage_lvl1_00%02d.png",
+            "start": 1,
+            "end": 12,
+            "delay": 0.04
+        }
+    },
+    "level2_mage": {
+        "shine": {
+            "prefix": "mage_lvl2_00%02d.png",
+            "start": 1,
+            "end": 12,
+            "delay": 0.04
+        }
+    },
+    "level3_mage": {
+        "shine": {
+            "prefix": "mage_lvl3_00%02d.png",
+            "start": 1,
+            "end": 12,
+            "delay": 0.04
+        }
+    },
+    "mage_shoot": {
+        "up": {
+            "prefix": "mage_shooter_00%02d.png",
+            "start": 17,
+            "end": 29,
+            "delay": 0.04
+        },
+        "down": {
+            "prefix": "mage_shooter_00%02d.png",
+            "start": 3,
+            "end": 16,
+            "delay": 0.04
+        }
+    },
+    "NecomancerMage_shoot": {
+        "up": {
+            "prefix": "NecomancerMage_00%02d.png",
+            "start": 32,
+            "end": 62,
+            "delay": 0.04
+        },
+        "down": {
+            "prefix": "NecomancerMage_00%02d.png",
+            "start": 3,
+            "end": 31,
+            "delay": 0.04
+        }
+    },
+    "DK": {
+        "run": {
+            "prefix": "NecromancerDeathKnight_00%02d.png",
+            "start": 1,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "NecromancerDeathKnight_00%02d.png",
+            "start": 7,
+            "end": 23,
+            "delay": 0.04
+        },
+        "birth": {
+            "prefix": "NecromancerDeathKnight_00%02d.png",
+            "start": 25,
+            "end": 46,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "NecromancerDeathKnight_00%02d.png",
+            "start": 48,
+            "end": 63,
+            "delay": 0.04
+        }
+    },
+    "skeleton": {
+        "death": {
+            "prefix": "skeleton_00%02d.png",
+            "start": 36,
+            "end": 54,
+            "delay": 0.04
+        },
+        "birth": {
+            "prefix": "skeleton_00%02d.png",
+            "start": 60,
+            "end": 92,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "skeleton_00%02d.png",
+            "start": 17,
+            "end": 33,
+            "delay": 0.04
+        },
+        "run": {
+            "prefix": "skeleton_00%02d.png",
+            "start": 1,
+            "end": 16,
+            "delay": 0.04
+        }
+    },
+    "NecromancerTower": {
+        "Effect": {
+            "prefix": "NecromancerTowerEffect_00%02d.png",
+            "start": 1,
+            "end": 15,
+            "delay": 0.04
+        }
+    },
+    "ArchMageGuy": {
+        "up": {
+            "prefix": "ArchMageGuy_00%02d.png",
+            "start": 3,
+            "end": 30,
+            "delay": 0.04
+        },
+        "down": {
+            "prefix": "ArchMageGuy_00%02d.png",
+            "start": 31,
+            "end": 60,
+            "delay": 0.04
+        }
+    },
+    "ArchMageTwister": {
+        "create": {
+            "prefix": "ArchMageTwister_00%02d.png",
+            "start": 1,
+            "end": 9,
+            "delay": 0.04
+        },
+        "twist": {
+            "prefix": "ArchMageTwister_00%02d.png",
+            "start": 9,
+            "end": 15,
+            "delay": 0.04
+        },
+        "end": {
+            "prefix": "ArchMageTwister_00%02d.png",
+            "start": 16,
+            "end": 24,
+            "delay": 0.04
+        }
+    },
+    "proy": {
+        "archbolt": {
+            "prefix": "proy_archbolt_00%02d.png",
+            "start": 1,
+            "end": 10,
+            "delay": 0.04
+        }
+    },
+    "Thug": {
+        "death": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 89,
+            "end": 106,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "desertThug_0%03d.png",
+            "start": 67,
+            "end": 88,
+            "delay": 0.04
+        }
+    },
+    "Raider": {
+        "death": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 89,
+            "end": 106,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "desertRaider_0%03d.png",
+            "start": 67,
+            "end": 88,
+            "delay": 0.04
+        }
+    },
+    "Wolf": {
+        "death": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 69,
+            "end": 86,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 11,
+            "end": 30,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 1,
+            "end": 10,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 1,
+            "end": 10,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 1,
+            "end": 10,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "desertWolf_0%03d.png",
+            "start": 31,
+            "end": 43,
+            "delay": 0.04
+        }
+    },
+    "level1_shoot": {
+        "down": {
+            "prefix": "tower_archer_lvl1_shooter_00%02d.png",
+            "start": 3,
+            "end": 10,
+            "delay": 0.04
+        },
+        "top": {
+            "prefix": "tower_archer_lvl3_shooter_00%02d.png",
+            "start": 11,
+            "end": 18,
+            "delay": 0.04
+        }
+    },
+    "level2_shoot": {
+        "down": {
+            "prefix": "tower_archer_lvl2_shooter_00%02d.png",
+            "start": 3,
+            "end": 10,
+            "delay": 0.04
+        },
+        "top": {
+            "prefix": "tower_archer_lvl3_shooter_00%02d.png",
+            "start": 11,
+            "end": 18,
+            "delay": 0.04
+        }
+    },
+    "level3_shoot": {
+        "down": {
+            "prefix": "tower_archer_lvl3_shooter_00%02d.png",
+            "start": 3,
+            "end": 10,
+            "delay": 0.04
+        },
+        "top": {
+            "prefix": "tower_archer_lvl3_shooter_00%02d.png",
+            "start": 11,
+            "end": 18,
+            "delay": 0.04
+        }
+    },
+    "Tremor": {
+        "runleft": {
+            "prefix": "tremor_0%03d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "tremor_0%03d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "tremor_0%03d.png",
+            "start": 15,
+            "end": 28,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "tremor_0%03d.png",
+            "start": 29,
+            "end": 42,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "tremor_0%03d.png",
+            "start": 83,
+            "end": 95,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "tremor_0%03d.png",
+            "start": 43,
+            "end": 61,
+            "delay": 0.04
+        },
+        "out": {
+            "prefix": "tremor_0%03d.png",
+            "start": 64,
+            "end": 75,
+            "delay": 0.04
+        },
+        "in": {
+            "prefix": "tremor_0%03d.png",
+            "start": 75,
+            "end": 82,
+            "delay": 0.04
+        }
+    },
+    "blood": {
+        "red": {
+            "prefix": "fx_blood_splat_red_00%02d.png",
+            "start": 1,
+            "end": 9,
+            "delay": 0.04
+        }
+    },
+    "level1_Artillery": {
+        "towerBase": {
+            "prefix": "tower_artillery_lvl1_layer1_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "rightShooter": {
+            "prefix": "tower_artillery_lvl1_layer3_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "barrel": {
+            "prefix": "tower_artillery_lvl1_layer4_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "smoke": {
+            "prefix": "tower_artillery_lvl1_layer5_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "c4": {
+            "prefix": "tower_artillery_lvl1_layer6_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "level2_Artillery": {
+        "towerBase": {
+            "prefix": "tower_artillery_lvl2_layer1_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "rightShooter": {
+            "prefix": "tower_artillery_lvl2_layer3_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "barrel": {
+            "prefix": "tower_artillery_lvl2_layer4_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "smoke": {
+            "prefix": "tower_artillery_lvl2_layer5_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "c4": {
+            "prefix": "tower_artillery_lvl2_layer6_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "level3_Artillery": {
+        "towerBase": {
+            "prefix": "tower_artillery_lvl3_layer1_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "rightShooter": {
+            "prefix": "tower_artillery_lvl3_layer3_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "barrel": {
+            "prefix": "tower_artillery_lvl3_layer4_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "smoke": {
+            "prefix": "tower_artillery_lvl3_layer5_00%02d.png",
+            "start": 1,
+            "end": 35,
+            "delay": 0.04
+        },
+        "c4": {
+            "prefix": "tower_artillery_lvl3_layer6_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "level1_Artillery_leftShooter": {
+        "hold": {
+            "prefix": "tower_artillery_lvl1_layer2_00%02d.png",
+            "start": 1,
+            "end": 17,
+            "delay": 0.04
+        },
+        "throw": {
+            "prefix": "tower_artillery_lvl1_layer2_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "level2_Artillery_leftShooter": {
+        "hold": {
+            "prefix": "tower_artillery_lvl2_layer2_00%02d.png",
+            "start": 1,
+            "end": 17,
+            "delay": 0.04
+        },
+        "throw": {
+            "prefix": "tower_artillery_lvl2_layer2_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "level3_Artillery_leftShooter": {
+        "hold": {
+            "prefix": "tower_artillery_lvl3_layer2_00%02d.png",
+            "start": 1,
+            "end": 17,
+            "delay": 0.04
+        },
+        "throw": {
+            "prefix": "tower_artillery_lvl3_layer2_00%02d.png",
+            "start": 18,
+            "end": 35,
+            "delay": 0.04
+        }
+    },
+    "bomb": {
+        "prefix": "explosion_air_00%02d.png",
+        "start": 1,
+        "end": 17,
+        "delay": 0.04
+    },
+    "explosion": {
+        "Artillery": {
+            "prefix": "states_small_00%02d.png",
+            "start": 22,
+            "end": 32,
+            "delay": 0.04
+        }
+    },
+    "level1_barracksSoilder": {
+        "run": {
+            "prefix": "soldier_lvl1_00%02d.png",
+            "start": 2,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "soldier_lvl1_00%02d.png",
+            "start": 7,
+            "end": 17,
+            "delay": 0.04
+        },
+        "dead": {
+            "prefix": "soldier_lvl1_00%02d.png",
+            "start": 18,
+            "end": 23,
+            "delay": 0.04
+        }
+    },
+    "level2_barracksSoilder": {
+        "run": {
+            "prefix": "soldier_lvl2_00%02d.png",
+            "start": 2,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "soldier_lvl2_00%02d.png",
+            "start": 7,
+            "end": 17,
+            "delay": 0.04
+        },
+        "dead": {
+            "prefix": "soldier_lvl2_00%02d.png",
+            "start": 18,
+            "end": 23,
+            "delay": 0.04
+        }
+    },
+    "level3_barracksSoilder": {
+        "run": {
+            "prefix": "soldier_lvl3_00%02d.png",
+            "start": 2,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "soldier_lvl3_00%02d.png",
+            "start": 7,
+            "end": 17,
+            "delay": 0.04
+        },
+        "dead": {
+            "prefix": "soldier_lvl3_00%02d.png",
+            "start": 18,
+            "end": 23,
+            "delay": 0.04
+        }
+    },
+    "Assassin": {
+        "run": {
+            "prefix": "Soldier_Assassin_00%02d.png",
+            "start": 2,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "Soldier_Assassin_00%02d.png",
+            "start": 7,
+            "end": 17,
+            "delay": 0.04
+        },
+        "dead": {
+            "prefix": "Soldier_Assassin_00%02d.png",
+            "start": 69,
+            "end": 76,
+            "delay": 0.04
+        },
+        "skill1": {
+            "prefix": "Soldier_Assassin_00%02d.png",
+            "start": 19,
+            "end": 43,
+            "delay": 0.04
+        },
+        "skill2": {
+            "prefix": "Soldier_Assassin_00%02d.png",
+            "start": 44,
+            "end": 69,
+            "delay": 0.04
+        }
+    },
+    "Templar": {
+        "run": {
+            "prefix": "Templar_00%02d.png",
+            "start": 3,
+            "end": 7,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "Templar_00%02d.png",
+            "start": 7,
+            "end": 36,
+            "delay": 0.04
+        },
+        "dead": {
+            "prefix": "Templar_00%02d.png",
+            "start": 94,
+            "end": 103,
+            "delay": 0.04
+        },
+        "skill1": {
+            "prefix": "Templar_00%02d.png",
+            "start": 61,
+            "end": 94,
+            "delay": 0.04
+        },
+        "skill2": {
+            "prefix": "Templar_00%02d.png",
+            "start": 36,
+            "end": 60,
+            "delay": 0.04
+        }
+    },
+    "level1_barracks": {
+        "opendoor": {
+            "prefix": "tower_barracks_lvl1_layer2_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        }
+    },
+    "level2_barracks": {
+        "opendoor": {
+            "prefix": "tower_barracks_lvl2_layer2_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        }
+    },
+    "level3_barracks": {
+        "opendoor": {
+            "prefix": "tower_barracks_lvl3_layer2_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        }
+    },
+    "level4_barracks": {
+        "opendoor": {
+            "prefix": "tower_assasins_layer2_00%02d.png",
+            "start": 1,
+            "end": 24,
+            "delay": 0.04
+        }
+    },
+    "level5_barracks": {
+        "opendoor": {
+            "prefix": "tower_templars_layer2_00%02d.png",
+            "start": 1,
+            "end": 4,
+            "delay": 0.04
+        },
+        "fire": {
+            "prefix": "TemplarTower_Fire_00%02d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        }
+    },
+    "EarthquakeTower_operation": {
+        "down": {
+            "prefix": "EarthquakeTower_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "up": {
+            "prefix": "EarthquakeTower_00%02d.png",
+            "start": 26,
+            "end": 50,
+            "delay": 0.04
+        }
+    },
+    "EarthquakeTower": {
+        "drilling": {
+            "prefix": "EarthquakeTower_00%02d.png",
+            "start": 67,
+            "end": 102,
+            "delay": 0.04
+        },
+        "glow": {
+            "prefix": "EarthquakeTower_Glow_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "light": {
+            "prefix": "EarthquakeTower_lights_00%02d.png",
+            "start": 1,
+            "end": 8,
+            "delay": 0.04
+        },
+        "drill": {
+            "prefix": "EarthquakeTower_drill_00%02d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "hitsmoke": {
+            "prefix": "EarthquakeTower_HitSmoke_00%02d.png",
+            "start": 1,
+            "end": 15,
+            "delay": 0.04
+        }
+    },
+    "MechsTower": {
+        "layer2": {
+            "prefix": "tower_mechs_layer2_00%02d.png",
+            "start": 1,
+            "end": 45,
+            "delay": 0.04
+        },
+        "layer3": {
+            "prefix": "tower_mechs_layer3_00%02d.png",
+            "start": 1,
+            "end": 8,
+            "delay": 0.04
+        },
+        "layer4": {
+            "prefix": "tower_mechs_layer4_00%02d.png",
+            "start": 1,
+            "end": 8,
+            "delay": 0.04
+        },
+        "layer6": {
+            "prefix": "tower_mechs_layer4_00%02d.png",
+            "start": 1,
+            "end": 27,
+            "delay": 0.04
+        },
+        "layer7": {
+            "prefix": "tower_mechs_layer7_00%02d.png",
+            "start": 1,
+            "end": 27,
+            "delay": 0.04
+        },
+        "layer8": {
+            "prefix": "tower_mechs_layer8_00%02d.png",
+            "start": 1,
+            "end": 42,
+            "delay": 0.04
+        },
+        "layer9": {
+            "prefix": "tower_mechs_layer9_00%02d.png",
+            "start": 1,
+            "end": 23,
+            "delay": 0.04
+        }
+    },
+    "Mecha": {
+        "walk": {
+            "prefix": "Mecha_00%02d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.03
+        },
+        "attack": {
+            "prefix": "Mecha_00%02d.png",
+            "start": 24,
+            "end": 68,
+            "delay": 0.03
+        },
+        "shoot": {
+            "prefix": "Mecha_0%03d.png",
+            "start": 75,
+            "end": 105,
+            "delay": 0.03
+        },
+        "shit": {
+            "prefix": "Mecha_0%03d.png",
+            "start": 106,
+            "end": 143,
+            "delay": 0.03
+        },
+        "shitting": {
+            "prefix": "Mecha_Shitting_0%03d.png",
+            "start": 122,
+            "end": 143,
+            "delay": 0.03
+        },
+        "missile": {
+            "prefix": "mech_missile_0%03d.png",
+            "start": 106,
+            "end": 143,
+            "delay": 0.03
+        }
+    },
+    "CossbowHunter_shooter": {
+        "down": {
+            "prefix": "CossbowHunter_shooter_0%03d.png",
+            "start": 2,
+            "end": 14,
+            "delay": 0.02
+        },
+        "up": {
+            "prefix": "CossbowHunter_shooter_0%03d.png",
+            "start": 17,
+            "end": 31,
+            "delay": 0.02
+        }
+    },
+    "CossbowHunter_shooter_skill": {
+        "up": {
+            "prefix": "CossbowHunter_shooter_0%03d.png",
+            "start": 56,
+            "end": 71,
+            "delay": 0.02
+        },
+        "down": {
+            "prefix": "CossbowHunter_shooter_0%03d.png",
+            "start": 34,
+            "end": 53,
+            "delay": 0.02
+        }
+    },
+    "CossbowHunter": {
+        "hawk": {
+            "prefix": "CossbowHunter_hawk_0%03d.png",
+            "start": 1,
+            "end": 145,
+            "delay": 0.05
+        }
+    },
+    "TotemTower": {
+        "EyesDown": {
+            "prefix": "TotemTower_EyesDown_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "RedTotem": {
+            "prefix": "TotemTower_RedTotem_0%03d.png",
+            "start": 1,
+            "end": 29,
+            "delay": 0.04
+        },
+        "VioletTotem": {
+            "prefix": "TotemTower_VioletTotem_0%03d.png",
+            "start": 1,
+            "end": 29,
+            "delay": 0.1
+        }
+    },
+    "TotemTower_Shooter": {
+        "down": {
+            "prefix": "TotemTower_Shooter_0%03d.png",
+            "start": 1,
+            "end": 16,
+            "delay": 0.04
+        },
+        "up": {
+            "prefix": "TotemTower_Shooter_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        }
+    },
+    "Executioner": {
+        "attack": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 73,
+            "end": 98,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 99,
+            "end": 118,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 49,
+            "end": 72,
+            "delay": 0.05
+        },
+        "rundown": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 25,
+            "end": 48,
+            "delay": 0.05
+        },
+        "runleft": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 1,
+            "end": 24,
+            "delay": 0.05
+        },
+        "runright": {
+            "prefix": "desertExecutioner_0%003d.png",
+            "start": 1,
+            "end": 24,
+            "delay": 0.05
+        }
+    },
+    "WaspQueen": {
+        "death": {
+            "prefix": "wasp_queen_0%003d.png",
+            "start": 43,
+            "end": 53,
+            "delay": 0.1
+        },
+        "runup": {
+            "prefix": "wasp_queen_0%003d.png",
+            "start": 15,
+            "end": 29,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "wasp_queen_0%003d.png",
+            "start": 30,
+            "end": 42,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "wasp_queen_0%003d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "wasp_queen_0%003d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        }
+    },
+    "WaspHornet": {
+        "death": {
+            "prefix": "wasp_hornet_0%003d.png",
+            "start": 43,
+            "end": 52,
+            "delay": 0.1
+        },
+        "runup": {
+            "prefix": "wasp_hornet_0%003d.png",
+            "start": 15,
+            "end": 29,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "wasp_hornet_0%003d.png",
+            "start": 30,
+            "end": 42,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "wasp_hornet_0%003d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "wasp_hornet_0%003d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        }
+    },
+    "Scorpion": {
+        "attack": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 27,
+            "end": 69,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 70,
+            "end": 99,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 10,
+            "end": 18,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 19,
+            "end": 27,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 1,
+            "end": 9,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "scorpion_0%003d.png",
+            "start": 1,
+            "end": 9,
+            "delay": 0.04
+        }
+    },
+    "Munra": {
+        "skill": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 122,
+            "end": 163,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 73,
+            "end": 120,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 165,
+            "end": 200,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 25,
+            "end": 47,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 49,
+            "end": 71,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 1,
+            "end": 23,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertMunra_0%03d.png",
+            "start": 1,
+            "end": 23,
+            "delay": 0.04
+        }
+    },
+    "Fallen": {
+        "attack": {
+            "prefix": "fallen_0%03d.png",
+            "start": 48,
+            "end": 69,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "fallen_0%03d.png",
+            "start": 70,
+            "end": 110,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "fallen_0%03d.png",
+            "start": 17,
+            "end": 32,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "fallen_0%03d.png",
+            "start": 32,
+            "end": 47,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "fallen_0%03d.png",
+            "start": 1,
+            "end": 16,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "fallen_0%03d.png",
+            "start": 1,
+            "end": 16,
+            "delay": 0.04
+        },
+        "birth": {
+            "prefix": "fallen_0%03d.png",
+            "start": 114,
+            "end": 146,
+            "delay": 0.04
+        }
+    },
+    "Immortal": {
+        "attack": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 67,
+            "end": 88,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 89,
+            "end": 124,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertImmortal_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "reinforce1": {
+        "run": {
+            "prefix": "reinforce_C0_0%03d.png",
+            "start": 1,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "reinforce_C0_0%03d.png",
+            "start": 7,
+            "end": 17,
+            "delay": 0.04
+        }
+    },
+    "reinforce2": {
+        "run": {
+            "prefix": "reinforce_B0_0%03d.png",
+            "start": 1,
+            "end": 6,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "reinforce_B0_0%03d.png",
+            "start": 7,
+            "end": 14,
+            "delay": 0.04
+        }
+    },
+    "Gorilla": {
+        "attack": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 73,
+            "end": 126,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 127,
+            "end": 160,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 26,
+            "end": 49,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 50,
+            "end": 72,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "Gorilla_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        }
+    },
+    "Shaman": {
+        "attack": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 127,
+            "end": 150,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 171,
+            "end": 177,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalShamanMagic_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "Hunter": {
+        "attack": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 67,
+            "end": 89,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 106,
+            "end": 138,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalHunter_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "Shield": {
+        "attack": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 67,
+            "end": 90,
+            "delay": 0.02
+        },
+        "death": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 100,
+            "end": 118,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalShamanShield_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "WingRider": {
+        "attack": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 43,
+            "end": 53,
+            "delay": 0.02
+        },
+        "death": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 57,
+            "end": 67,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 15,
+            "end": 28,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 29,
+            "end": 42,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalWingRider_0%03d.png",
+            "start": 1,
+            "end": 14,
+            "delay": 0.04
+        }
+    },
+    "Priest": {
+        "attack": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 67,
+            "end": 150,
+            "delay": 0.02
+        },
+        "death": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 160,
+            "end": 176,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalShamanPriest_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "Canibal": {
+        "attack": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 67,
+            "end": 77,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 78,
+            "end": 130,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 23,
+            "end": 44,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 45,
+            "end": 66,
+            "delay": 0.04
+        },
+        "runleft": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "Canibal_0%03d.png",
+            "start": 1,
+            "end": 22,
+            "delay": 0.04
+        }
+    },
+    "Boss_Efreeti": {
+        "runleft": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 1,
+            "end": 25,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 26,
+            "end": 50,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 53,
+            "end": 89,
+            "delay": 0.04
+        },
+        "skill": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 91,
+            "end": 127,
+            "delay": 0.1
+        },
+        "death": {
+            "prefix": "Boss_Efreeti_0%03d.png",
+            "start": 130,
+            "end": 211,
+            "delay": 0.04
+        },
+        "cloud": {
+            "prefix": "Boss_Efreeti_Cloud_0%03d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        }
+    },
+    "Efreeti": {
+        "runleft": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 13,
+            "end": 23,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 1,
+            "end": 11,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 47,
+            "end": 61,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "desertEfreeti_0%03d.png",
+            "start": 25,
+            "end": 46,
+            "delay": 0.04
+        }
+    },
+    "Boss_Canibal": {
+        "runleft": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 1,
+            "end": 31,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 1,
+            "end": 31,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 1,
+            "end": 31,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 33,
+            "end": 62,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 65,
+            "end": 91,
+            "delay": 0.04
+        },
+        "skill": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 197,
+            "end": 242,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 251,
+            "end": 292,
+            "delay": 0.04
+        },
+        "jump": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 184,
+            "end": 197,
+            "delay": 0.04
+        }
+    },
+    "Boss_Canibal_skill": {
+        "before": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 92,
+            "end": 143,
+            "delay": 0.1
+        },
+        "after": {
+            "prefix": "CanibalBoos_0%03d.png",
+            "start": 244,
+            "end": 252,
+            "delay": 0.04
+        }
+    },
+    "CanibalBoos_Offspring": {
+        "runleft": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 1,
+            "end": 13,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 15,
+            "end": 27,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 1,
+            "end": 13,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 1,
+            "end": 13,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 29,
+            "end": 53,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "CanibalBoos_Offspring_0%03d.png",
+            "start": 56,
+            "end": 70,
+            "delay": 0.04
+        }
+    },
+    "Blazefang": {
+        "runleft": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 23,
+            "end": 43,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 45,
+            "end": 65,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 67,
+            "end": 95,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 187,
+            "end": 203,
+            "delay": 0.04
+        }
+    },
+    "Broodguard": {
+        "runleft": {
+            "prefix": "SaurianBroodguard_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianBroodguard_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianBroodguard_0%03d.png",
+            "start": 23,
+            "end": 43,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianBroodguard_0%03d.png",
+            "start": 45,
+            "end": 65,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianBroodguard_0%03d.png",
+            "start": 67,
+            "end": 95,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianBlazefang_0%03d.png",
+            "start": 97,
+            "end": 114,
+            "delay": 0.04
+        }
+    },
+    "Elite": {
+        "runleft": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 23,
+            "end": 43,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 45,
+            "end": 65,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 67,
+            "end": 123,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianElite_0%03d.png",
+            "start": 126,
+            "end": 143,
+            "delay": 0.04
+        }
+    },
+    "Myrmidon": {
+        "runleft": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 23,
+            "end": 43,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 45,
+            "end": 65,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 67,
+            "end": 85,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianMyrmidon_0%03d.png",
+            "start": 87,
+            "end": 104,
+            "delay": 0.04
+        }
+    },
+    "Nightscale": {
+        "runleft": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 23,
+            "end": 43,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 45,
+            "end": 65,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 67,
+            "end": 98,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianNightscale_0%03d.png",
+            "start": 125,
+            "end": 144,
+            "delay": 0.04
+        }
+    },
+    "Quetzal": {
+        "runleft": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 1,
+            "end": 13,
+            "delay": 0.04
+        },
+        "runright": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 1,
+            "end": 21,
+            "delay": 0.04
+        },
+        "runup": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 15,
+            "end": 27,
+            "delay": 0.04
+        },
+        "rundown": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 28,
+            "end": 41,
+            "delay": 0.04
+        },
+        "attack": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 43,
+            "end": 65,
+            "delay": 0.04
+        },
+        "death": {
+            "prefix": "SaurianQuetzal_0%03d.png",
+            "start": 65,
+            "end": 83,
+            "delay": 0.04
+        }
+    }
+}
