@@ -1,5 +1,6 @@
 import pygame
 import os
+import schedule
 import plistlib
 from ..monsters.base_monster import *
 
@@ -7,7 +8,7 @@ MonsterType = [Canibal]
 
 
 class BaseMap(pygame.sprite.Group):
-    def __init__(self, screen):
+    def __init__(self):
         super(BaseMap, self).__init__()
         self.level = 0
         self.difficult = 0
@@ -18,13 +19,14 @@ class BaseMap(pygame.sprite.Group):
         self.wave_res = []
         self.time = 0
         self.path = None
-        self.screen = screen
+        self.is_end = False
         self._load_resource()
         self._load_path()
         self._add_monsters_to_wave()
+        self.add_monsters_job = schedule.every(1).seconds.do(self._add_monsters_to_wave)
 
     def _load_path(self):
-        fname = os.path.join(os.getenv("RESOURCE_PATH"), "level%d_paths.plist" % (self.level))
+        fname = os.path.join(os.getenv("RESOURCE_PATH"), "level%d_paths.plist" % self.level)
         with open(fname, "rb") as file:
             self.path = plistlib.load(file)['paths']
 
@@ -37,13 +39,24 @@ class BaseMap(pygame.sprite.Group):
             self.max_wave = int(plist['data'][0]['wave'])
             self.wave_res = plist['monsters']
 
+    def update(self):
+        super(BaseMap, self).update()
+        if self.is_end:
+            schedule.cancel_job(self.add_monsters_job)
+
     def _add_monsters_to_wave(self):
         if self.time < len(self.wave_res[self.current_wave]):
             for i in range(len(self.wave_res[self.current_wave][self.time])):
                 monster = self.wave_res[self.current_wave][self.time][i]
-                self.add(MonsterType[int(monster['type'])](self.screen, self.path[self.current_wave][self.time]))
+                try:
+                    self.add(MonsterType[int(monster['type'])](self.path[int(monster['road'])][int(monster['path'])]))
+                except IndexError:
+                    pass
             self.time += 1
-
-
-
-
+        else:
+            self.time = 0
+            if self.current_wave != self.max_wave - 1:
+                self.current_wave += 1
+            else:
+                self.is_end = True
+                return

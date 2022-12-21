@@ -2,19 +2,19 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import os
 import sys
+import schedule
 import pygame
 from .utils.res import ResourceHolder
 from .sprites.monsters.base_monster import Canibal
 from .sprites.map.base_map import BaseMap
 
-os.environ["RESOURCE_PATH"] = "./Resources"
 
 def run():
     pygame.init()
     clock = pygame.time.Clock()
-    screen = pygame.display.set_mode([1200, 1200])
+    screen = pygame.display.set_mode([960, 640])
     running = True
-    map = BaseMap(screen)
+    map = BaseMap()
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -22,7 +22,9 @@ def run():
         screen.fill((255, 255, 255))
         map.update()
         map.draw(screen)
-        pygame.display.update()
+        # pygame.display.update()
+        pygame.display.flip()
+        schedule.run_pending()
         clock.tick()
     pygame.quit()
 
