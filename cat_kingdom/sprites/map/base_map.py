@@ -7,11 +7,19 @@ from ..monsters.base_monster import *
 MonsterType = [Canibal]
 
 
-class BaseMap(pygame.sprite.Group):
-    def __init__(self):
+class BaseMapMeta(type):
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            instance = super().__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+
+class BaseMap(pygame.sprite.Group, metaclass=BaseMapMeta):
+    def __init__(self, level, difficult):
         super(BaseMap, self).__init__()
-        self.level = 0
-        self.difficult = 0
         self.start_gold = 0
         self.max_life = 0
         self.max_wave = 0
@@ -20,17 +28,27 @@ class BaseMap(pygame.sprite.Group):
         self.time = 0
         self.path = None
         self.is_end = False
-        self._load_resource()
-        self._load_path()
-        self._add_monsters_to_wave()
+
+        self.level = level
+        self.difficult = difficult
+
+        self._load_map_resources()
         self.add_monsters_job = schedule.every(1).seconds.do(self._add_monsters_to_wave)
+
+    def _load_background(self):
+        info, img = ResourceHolder.load_res("sprite_level_%d_2-hd" % self.level)
+        background = ResourceHolder.load_image(img, info["frames"]["Stage_%d.png" % (self.level + 1)])
+        bg_sprite = pygame.sprite.Sprite()
+        bg_sprite.image = background
+        bg_sprite.rect = pygame.Rect(0, 0, *background.get_size())
+        self.add(bg_sprite)
 
     def _load_path(self):
         fname = os.path.join(os.getenv("RESOURCE_PATH"), "level%d_paths.plist" % self.level)
         with open(fname, "rb") as file:
             self.path = plistlib.load(file)['paths']
 
-    def _load_resource(self):
+    def _load_monsters(self):
         fname = os.path.join(os.getenv("RESOURCE_PATH"), "level%d_%d_monsters.plist" % (self.level, self.difficult))
         with open(fname, "rb") as file:
             plist = plistlib.load(file)
@@ -60,3 +78,8 @@ class BaseMap(pygame.sprite.Group):
             else:
                 self.is_end = True
                 return
+
+    def _load_map_resources(self):
+        self._load_monsters()
+        self._load_path()
+        self._load_background()
