@@ -36,7 +36,7 @@ class BaseMap(pygame.sprite.Group, metaclass=BaseMapMeta):
         self.add_monsters_job = schedule.every(1).seconds.do(self._add_monsters_to_wave)
 
     def _load_background(self):
-        info, img = ResourceHolder.load_res("sprite_level_%d_2-hd" % self.level)
+        info, img = ResourceHolder.load_res("sprite_level%d_2-hd" % self.level)
         background = ResourceHolder.load_image(img, info["frames"]["Stage_%d.png" % (self.level + 1)])
         bg_sprite = pygame.sprite.Sprite()
         bg_sprite.image = background
@@ -69,6 +69,7 @@ class BaseMap(pygame.sprite.Group, metaclass=BaseMapMeta):
                 try:
                     self.add(MonsterType[int(monster['type'])](self.path[int(monster['road'])][int(monster['path'])]))
                 except IndexError:
+                    print("Cannot find monster ", int(monster['type']))
                     pass
             self.time += 1
         else:

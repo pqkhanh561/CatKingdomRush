@@ -44,8 +44,9 @@ class BaseMonster(pygame.sprite.Sprite):
         self.delay = self.action['delay']
 
     def _get_next_point(self):
+        #TODO: Refactor
         return float(self.path[self.next_point_idx]['x']) * 1.15, \
-               float(self.path[self.next_point_idx]['y']) * 1.20 - 25
+               1000 - (float(self.path[self.next_point_idx]['y']) * 1.20 + 65)
 
     def death(self):
         self.current_action = "death"
