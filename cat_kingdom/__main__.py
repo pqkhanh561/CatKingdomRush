@@ -10,7 +10,7 @@ def run():
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode([1200, 1000])
     running = True
-    game_map = BaseMap(0, 0)
+    game_map = BaseMap(1, 0)
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
